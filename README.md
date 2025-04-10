@@ -4,20 +4,6 @@
 
 .github/workflows/main.yml
 
-name: CI/CD Pipeline for Python Web Application
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  linting:
-    name: Static Code Analysis
-    runs-on: ubuntu-latest
 
     steps:
     # Check out the code
